@@ -244,7 +244,7 @@ def calculate_windowed_auc(scores, labels, is_normalcy_score, window_size=5000, 
 def main():
     """Main execution block."""
     # --- Configuration ---
-    file_path = './dataset/usp/INSECTS-abrupt_imbalanced_norm.csv' # Make sure this file is in the same directory
+    file_path = './dataset/usp/INSECTS-abrupt.csv' # Make sure this file is in the same directory
     
     # --- Load Data ---
     X_full, y_full = load_and_prepare_insects_data(file_path)
